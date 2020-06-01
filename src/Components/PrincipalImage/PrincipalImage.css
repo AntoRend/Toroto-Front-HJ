@@ -1,0 +1,9 @@
+.image-container figure {
+  margin: 0em;
+  height: 40vw;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+}

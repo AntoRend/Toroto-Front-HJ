@@ -1,0 +1,54 @@
+.form-container {
+  border: 2px groove rgb(187, 185, 185);
+  width: 40%;
+  padding: 50px;
+  box-shadow: 5px 2px rgb(206, 200, 200);
+  border-radius: 2px;
+}
+
+.form-container h3 {
+  margin: 0;
+}
+
+.form-container form button {
+  background-color: transparent;
+  border: 2px solid rgb(73, 73, 173);
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+.register-button:hover{
+  cursor: pointer;
+  background-color:  rgb(4, 4, 236);
+  color: aliceblue;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.form-group input {
+  border: 2px groove rgb(197, 195, 195);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.link-to-register {
+  display: flex;
+  justify-content: center;
+}
+
+.link-to-register h5 {
+  margin: 0;
+  align-self: center;
+  font-weight: unset;
+}
+
+.link-to-register a {
+  align-self: center;
+  padding: 0 10px;
+}

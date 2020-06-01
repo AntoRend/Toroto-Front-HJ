@@ -1,0 +1,13 @@
+.nav-links {
+  display: flex;
+}
+
+.nav-links li {
+  list-style: none;
+  padding-left: 50px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}

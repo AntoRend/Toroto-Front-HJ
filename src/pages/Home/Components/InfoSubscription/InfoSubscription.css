@@ -1,0 +1,34 @@
+.row h3 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.cards-container {
+  padding: 50px 0;
+}
+
+.cards-container .card {
+  width: 90%;
+  margin: auto;
+}
+ 
+.card-title {
+  font-size: x-large;
+}
+
+.card-text {
+  font-size: larger;
+  text-align: justify;
+}
+
+
+@media (min-width: 750px) {
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .cards-container .card {
+    width: 30%;
+  }
+}

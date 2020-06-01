@@ -1,0 +1,18 @@
+.logo figure img {
+  width: 150px;
+}
+
+.icons-container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+@media (min-width: 750px) {
+  .footer {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+  }
+}

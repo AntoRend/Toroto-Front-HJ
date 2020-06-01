@@ -1,0 +1,31 @@
+/* * {
+  background-color: black;
+  color: azure;
+} */
+
+.header-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container a img {
+  width: 150px;
+}
+
+.header-container div {
+  align-self: center;
+  margin: 0 5%;
+}
+
+.header-container div button {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid rgb(176, 194, 201); 
+  padding: 5px;
+  color: aliceblue;
+}
+
+.header-container div button:hover {
+  cursor: pointer;
+}

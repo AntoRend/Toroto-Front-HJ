@@ -1,0 +1,84 @@
+.user-card {
+  width: 80%;
+  margin: 50px auto;
+  border-bottom: 2px solid black;
+}
+
+.card-header {
+  display: flex;
+  padding: 5px;
+}
+
+.card-header button {
+  padding: 0 10px;
+  border: none;
+  background-color: transparent;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.card-content {
+  position: relative;
+  display: inline-block;
+  display: none
+}
+
+.drop-active{
+  display: block;
+}
+
+.card-content {
+  padding-left: 10px;
+}
+
+.info-content p {
+  margin: 5px;
+}
+
+.subscription-content p {
+  margin: 5px;
+}
+
+.subscription {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscription button {
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.subscription button:hover {
+  cursor: pointer;
+}
+
+.info-subsc {
+  display: flex;
+}
+
+.info-edit {
+  display: flex;
+  margin: 10px;
+}
+
+.info-edit input {
+  margin: 0 20px;
+  border-radius: 5px;
+}
+
+.info-subsc p {
+  width: 50%;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+
+@media (min-width: 750px) {
+  .info-content {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+}
